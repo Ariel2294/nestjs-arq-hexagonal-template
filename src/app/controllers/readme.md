@@ -1,0 +1,1 @@
+La carpeta controllers es una carpeta en la que se ubican los controladores globales de la aplicación. Los controladores son clases que contienen las acciones que se realizan en respuesta a las solicitudes HTTP. En NestJS, se utiliza el decorador @Controller para indicar que una clase es un controlador.

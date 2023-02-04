@@ -1,0 +1,1 @@
+La carpeta entities es una subcarpeta dentro de la carpeta domain y es común en aplicaciones que usan una base de datos. Contiene las clases que representan las entidades de la base de datos y su estado.

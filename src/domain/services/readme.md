@@ -1,0 +1,3 @@
+La carpeta services es una subcarpeta dentro de la carpeta domain y contiene clases o módulos que representan los servicios de negocio que se ofrecen en el sistema. Estos servicios proporcionan la lógica de negocios y la funcionalidad específica de una aplicación.
+
+Los servicios de negocios son aquellos que realizan tareas específicas y complejas para cumplir con un requisito de negocio. Por ejemplo, un servicio de autenticación podría encargarse de autenticar a un usuario en la aplicación. Otro ejemplo podría ser un servicio de envío de correo electrónico, que se encarga de enviar correos electrónicos a los usuarios de la aplicación.
