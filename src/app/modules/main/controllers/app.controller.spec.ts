@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from '../services/app.service';
+import { WinstonModule } from 'nest-winston';
 
 describe('AppController', () => {
   let appController: AppController;
@@ -9,6 +10,7 @@ describe('AppController', () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [AppController],
       providers: [AppService],
+      imports: [WinstonModule.forRoot({ silent: true })],
     }).compile();
 
     appController = app.get<AppController>(AppController);

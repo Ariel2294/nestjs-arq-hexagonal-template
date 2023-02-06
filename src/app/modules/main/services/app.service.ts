@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
-import { createContextWinston } from 'src/utils/logger.util';
+import { createContextWinston } from '../../../../utils/logger.util';
 import { Logger } from 'winston';
 
 @Injectable()
